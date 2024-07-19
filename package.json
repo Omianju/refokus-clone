@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Omianju.github.io/refokus-ui-clone",
+  "homepage": "https://Omianju.github.io/refokus-ui-clone/",
   "name": "refokus-clone",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.0.20",
